@@ -1,0 +1,11 @@
+vuex数据仓库，状态管理器  中大型项目
+	公共属性进行共享
+1  src下面建立vuex文件夹，store文件
+		引入vue,vuex  vue挂载vuex
+
+2.store里面
+	vuex的store抛出
+		定义state状态，放在里面
+		mutations改变状态的方法，放在里面
+	
+3组件里面引用store,,且使用
